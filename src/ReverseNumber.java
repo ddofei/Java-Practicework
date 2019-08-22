@@ -7,6 +7,7 @@ public class ReverseNumber {
 
     }
 
+    //TODO: please consider using string builder to reverse the string, int to string to string builder to reverse to string to int
     public static int reverse(int number){
         int reversedNumber = 0;
         while (number != 0){// number = 123   12   1
