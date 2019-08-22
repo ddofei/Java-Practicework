@@ -18,6 +18,8 @@ public class FindPrimeNumbers {
         if (number<=1) {
             return false;
         }else{
+            //TODO: recall the discussion on prime that the biggest unconjugated factor is smaller or equal to the square root
+            // of the number, please consider revising the implementation logic 
             for (int i=2; (i<=number/2); i++){
                 if (number%i ==0){
                     count++;
