@@ -1,4 +1,4 @@
-public class CheckIfPerfectNumber {
+public class CheckIfPerfectNumber {     //name of the class is noun
     public static void main(String[] args) {
         System.out.println(isPerfectNumber(6));
         System.out.println(isPerfectNumber(28));
@@ -11,7 +11,7 @@ public class CheckIfPerfectNumber {
         int sum=0;
         if (number<1) {
             return false;
-        }else if(number>1){
+        }else if(number>1){         //you dont need else if just else or none is fine
             for (int i=1; i<number; i++){
                 if (number%i==0){
                     sum+=i;
@@ -24,7 +24,7 @@ public class CheckIfPerfectNumber {
            // }
 
         }
-        return sum==number;
+        return sum==number; //good
 
     }
 }
